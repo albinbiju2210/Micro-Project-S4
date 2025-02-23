@@ -1,9 +1,38 @@
-<html>
-    <title>home</title
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    <body>
-        <h1>Home</h1>
-        <p>Hello World</p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Diamond Showcase</title>
+    <link rel="stylesheet" href="style.css">  <!-- Link to CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>Hope Diamond Inspired Products</h1>
+        <p>A showcase of items inspired by the legendary Hope Diamond</p>
+    </header>
+
+    <!-- Banner Section -->
+    <div id="banner">
+        <img src="images/banner1.jpg" alt="Banner Image 1" class="banner-image">
+        <img src="images/banner2.jpg" alt="Banner Image 2" class="banner-image" style="display: none;">
+        <img src="images/banner3.jpg" alt="Banner Image 3" class="banner-image" style="display: none;">
+        <img src="images/banner4.jpg" alt="Banner Image 4" class="banner-image" style="display: none;">
+        <img src="images/banner5.jpg" alt="Banner Image 5" class="banner-image" style="display: none;">
+    </div>
+
+    <!-- Dots for Banner -->
+    <div id="banner-dots"></div>
+
+    <div id="product-container">
+        <p id="loading-message">Loading products...</p>
+        
+        <!-- Section for product tiles -->
+        <div id="product-tiles" style="display: none;"></div>
+    </div>
+
+    <script src="script.js"></script>  <!-- Link to JavaScript file -->
+
+</body>
 </html>
